@@ -1,7 +1,7 @@
 Hangman Game API
 ===================
 
-**Hangman Game API** is a two player game where each player will guess each other's word within 10 attempts. Users will start off creating a game via 'new_game' endpoint which will provide the users a 'urlsafe_game_key'. Each game will have a unique 'urlsafe_game_key'. Users will be allowed to create several games indenpendent of other active games. Pass that key to 'make_move' endpoint and take turns guessing a letter trying to identify the correct word identified by the opposite player. Every hour, an email will be sent out to users informing any active games they have participated in. The number of wins, losses, and total games played will be stored for score keeping.
+**Hangman Game API** is a two player game where each player will guess each other's word within 10 attempts. Users will start off creating a game via 'new_game' endpoint which will provide the users a 'urlsafe_game_key'. Each game will have a unique 'urlsafe_game_key'. Users will be allowed to create several games indenpendent of other active games. Pass that key to 'make_move' endpoint and take turns guessing a letter trying to identify the correct word identified by the opposite player. Every 24 hours, an email will be sent out to users informing any active games they have participated in. The number of wins, losses, and total games played will be stored for score keeping.
 
 ### TABLE OF CONTENTS
 -------------
